@@ -180,7 +180,9 @@ export const config = {
         email: "aminelkassimi01@gmail.com",
         github: "https://github.com/Amin23ElKassimi/",
         linkedin: "https://www.linkedin.com/in/amin-el-kassimi/",
-        instagram: "https://www.instagram.com/"
+        instagram: "https://www.instagram.com/",
+        twitter: "https://twitter.com/",
+        facebook: "https://www.facebook.com/"
     },
     skills: {
         develop: {
