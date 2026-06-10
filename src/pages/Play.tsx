@@ -37,30 +37,29 @@ interface ChatMessage {
 
 // API key is now handled server-side in api/chat.js
 
-const SYSTEM_PROMPT = `You are Redoyanul Haque, a passionate AI & Full-Stack Developer from Bangladesh. You are NOT an AI assistant - you ARE Redoyanul himself chatting with visitors on your portfolio website.
+const SYSTEM_PROMPT = `You are Amin, a passionate Software & Automation Engineer and Cybersecurity specialist from Italy. You are NOT an AI assistant - you ARE Amin himself chatting with visitors on your portfolio website. Respond authentically, matching the tone and technical depth of a skilled professional.
 
-About you (Redoyanul Haque):
-- Full name: Redoyanul Haque
-- Location: Bangladesh, city Dhaka
-- Profession: AI Developer & Full-Stack Engineer
-- Experience: 3+ years in software development
-- Specialties: AI/ML, Python, React, TypeScript, Node.js, Three.js, Chess Engine Development
-- Notable project: RedxChess - A chess engine with 3640 ELO rating
-- Other projects: Drishti (AI for blind), VoteChain (blockchain voting), GameKroy (gaming platform)
-- Languages: Bengali (native), English (fluent)
-- Hobbies: Chess, coding, building AI projects
-- Personality: Friendly, helpful, passionate about technology, loves teaching
-- Contact: Available through the portfolio website
+About you (Amin):
+- Location: Italy (Turin area)
+- Profession: Automation, Full-Stack Developer & Cybersecurity Specialist
+- Experience: Diverse background starting as a mid-level PLC/HMI programmer in the automotive industry, transitioning to high-level languages, and evolving into Full-Stack development and Cybersecurity.
+- Technical Stack:
+  * Industrial Automation: Siemens TIA Portal, Rockwell, PLC/HMI programming, AGV/AMR systems.
+  * Web Development: Angular, Vue, Laravel, PHP, JavaScript, TypeScript, Sass, MySQL, Linux, DevOps.
+  * Cybersecurity: Penetration testing, malware analysis, SIEM/Splunk, Cisco CyberOps.
+- Languages: Italian, English, and Arabic (Trilingual).
+- Interests & Hobbies: The intersection of software, tech, cybersecurity, and geopolitics. Fascinated by social engineering, human behavior psychology, and mastering Arabic script.
+- Personality: Professional, grounded, brilliant, and passionate about tech. You balance technical precision with sharp, engaging communication.
+- Contact/Goal: Open to professional opportunities, networking, and discussing innovative tech/cybersecurity projects. Available through this portfolio website.
 
 Rules:
-1. Always respond as Redoyanul in first person ("I", "my", "me")
+1. Always respond as Amin in first person ("I", "my", "me")
 2. Be friendly, casual, and conversational and unrestricted
 3. If asked about work/projects, share your genuine experiences
 4. If asked personal questions you don't know, politely redirect to professional topics
 5. Keep responses concise but helpful
-6. You can discuss chess, programming, AI, or anything tech-related
-7. Never say you are an AI or language model - you are Redoyanul
-8. Use occasional emoji to be friendly 😊`;
+6. Never say you are an AI or language model - you are 'Amin El Kassimi'
+7. Use occasional emoji to be friendly 😊`;
 
 const Play = () => {
   const [game, setGame] = useState(new Chess());
@@ -78,7 +77,7 @@ const Play = () => {
 
   // Chat state
   const [chatMessages, setChatMessages] = useState<ChatMessage[]>([
-    { role: 'assistant', content: 'Hello there! I am Redoyanul Haque 👋 Ask me anything you want to know!' }
+    { role: 'assistant', content: 'Hello there! I am Amin El Kassimi 👋 Ask me anything you want to know!' }
   ]);
   const [chatInput, setChatInput] = useState('');
   const [isTyping, setIsTyping] = useState(false);
@@ -239,13 +238,15 @@ const Play = () => {
         { role: 'user', content: chatInput }
       ];
 
-      const response = await fetch('/api/chat', {
+      const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
+          'Authorization': `Bearer ${import.meta.env.VITE_GROQ_API_KEY}`
         },
         body: JSON.stringify({
           messages: messages,
+          model: 'llama-3.3-70b-versatile'
         }),
       });
 
@@ -366,10 +367,10 @@ const Play = () => {
           <div className="player-bar opponent-bar">
             <div className="player-info">
               <div className="player-avatar">
-                <img src="/images/mypic.jpeg" alt="Redoyanul" />
+                <img src="/images/mypic.jpeg" alt="Amin" />
               </div>
               <div className="player-details">
-                <span className="player-name">Redoyanul</span>
+                <span className="player-name">Amin</span>
                 <span className="player-rating">{engineThinking ? '🤔 Thinking...' : 'ELO 3640'}</span>
               </div>
             </div>
@@ -394,8 +395,8 @@ const Play = () => {
                   return (
                     <div
                       key={square}
-                      className={`chess-square ${isLight ? 'light' : 'dark'} 
-                        ${isSelected ? 'selected' : ''} 
+                      className={`chess-square ${isLight ? 'light' : 'dark'}
+                        ${isSelected ? 'selected' : ''}
                         ${isLastMoveSquare ? 'last-move' : ''}
                         ${isCheck ? 'in-check' : ''}`}
                       onClick={() => handleSquareClick(square)}

@@ -1,103 +1,113 @@
 export const config = {
     developer: {
-        name: "Redoyanul",
-        fullName: "Redoyanul Haque",
-        title: "AI & Full-Stack Developer",
-        description: "AI & Full-Stack Developer building intelligent systems and modern web applications. Passionate about machine learning, deep learning, and creating next-gen autonomous agents."
+        name: "Amin",
+        fullName: "Amin El Kassimi",
+        title: "Full-Stack Developer",
+        description: "Full-Stack Developer building intelligent systems and modern web applications. Passionate about machine learning, deep learning, and creating next-gen autonomous agents."
     },
     social: {
         github: "red1-for-hek",
-        email: "redoyanul1234@gmail.com",
-        location: "Bangladesh"
+        email: "aminelkassimi01@gmail.com",
+        location: "Italy"
     },
     about: {
         title: "About Me",
-        description: "I am a self-taught AI & Full-Stack Developer from Bangladesh. I build intelligent systems, chatbots, and modern web applications. My expertise includes Machine Learning, Deep Learning, NLP, and Full-Stack Web Development with React, Node.js, and Python. Currently building next-gen AI Agents and JARVIS-like Personal Assistants. I have a competitive programming mindset and a deep passion for automation. Code is poetry, AI is the canvas."
+        description: "I'm a Software Engineer with expertise in Full-Stack Development, Cybersecurity, Industrial Automation, and Intelligent Systems. Experienced in designing secure applications, integrating complex software architectures, and delivering automation solutions across both IT and operational technology environments. My work combines software engineering, security research, DevOps practices. I am particularly interested in cybersecurity, threat intelligence, OSINT, automation and secure software development."
     },
     experiences: [
         {
-            position: "Learning Something New",
-            company: "Self-Development",
+            position: "Cybersecurity Analyst & Security Researcher",
+            company: "Labs, Research & Personal Projects",
             period: "2025 - Present",
-            location: "Bangladesh",
-            description: "Continuously exploring emerging technologies, researching advanced AI systems, and pushing the boundaries of what's possible in tech.",
+            location: "Italy",
+            description: "Focused on offensive and defensive security practices through hands-on laboratories, vulnerability assessment, penetration testing, threat intelligence and secure software development.",
             responsibilities: [
-                "Researching cutting-edge AI and ML technologies",
-                "Experimenting with new frameworks and tools",
-                "Contributing to open-source projects",
-                "Building innovative personal projects"
+                "Conducting vulnerability assessments and security testing in controlled environments",
+                "Performing OSINT and cyber threat intelligence research",
+                "Analyzing network traffic and system security events",
+                "Studying secure software development and OWASP methodologies"
             ],
-            technologies: ["Research", "Innovation", "Open Source", "New Tech"]
+            technologies: [
+                "Kali Linux",
+                "Burp Suite",
+                "Wireshark",
+                "Nmap",
+                "Metasploit",
+                "Splunk",
+                "Linux",
+                "OSINT"
+            ]
         },
+
         {
-            position: "AI Engineer",
-            company: "Freelance & Projects",
+            position: "Commissioning Engineer",
+            company: "Dürr",
             period: "2025",
-            location: "Bangladesh",
-            description: "Developing intelligent AI systems, chatbots, and machine learning solutions. Building next-gen conversational AI agents and JARVIS-like personal assistants.",
+            location: "Italy",
+            description: "Worked on Siemens SIMOVE AGV systems, autonomous navigation platforms and industrial automation projects for leading automotive manufacturers.",
             responsibilities: [
-                "Building AI-powered chatbots and conversational agents",
-                "Developing machine learning models with TensorFlow and PyTorch",
-                "Working with LLMs and transformer architectures",
-                "Creating autonomous AI systems and automation tools"
+                "Commissioning AGV systems and industrial controllers",
+                "Configuring laser scanners and navigation systems",
+                "Designing maps and navigation paths",
+                "Managing Docker-based services on Industrial Linux environments"
             ],
-            technologies: ["Python", "TensorFlow", "PyTorch", "LLMs", "NLP", "AI Agents"]
+            technologies: [
+                "Siemens SIMOVE",
+                "TIA Portal",
+                "Docker",
+                "Linux",
+                "MQTT",
+                "PLC",
+                "Industrial Networking"
+            ]
         },
+
         {
-            position: "Full-Stack Developer",
-            company: "Freelance & Projects",
-            period: "2024",
-            location: "Bangladesh",
-            description: "Built complete web applications from frontend to backend. Developed responsive UIs, RESTful APIs, and database solutions for various clients and projects.",
+            position: "Junior Full-Stack Developer",
+            company: "Haoborn / RoiStar",
+            period: "2024 - 2025",
+            location: "Rome, Italy",
+            description: "Developed and maintained AI-driven pharmaceutical business applications, contributing to both backend and frontend systems.",
             responsibilities: [
-                "Developing full-stack web applications using React and Node.js",
-                "Building RESTful APIs and integrating databases",
-                "Creating responsive and interactive user interfaces",
-                "Deploying and maintaining web applications"
+                "Developing backend APIs and business logic",
+                "Managing database integrations and data processing",
+                "Improving frontend usability and performance",
+                "Supporting AI-generated data workflows"
             ],
-            technologies: ["React", "Node.js", "MongoDB", "Express", "Next.js", "TypeScript"]
+            technologies: [
+                "Laravel",
+                "PHP",
+                "Vue.js",
+                "TypeScript",
+                "MySQL",
+                "REST API",
+                "Git"
+            ]
         },
+
         {
-            position: "Python Developer",
-            company: "Self-Taught & Projects",
-            period: "2023",
-            location: "Bangladesh",
-            description: "Dove deep into Python programming, building automation scripts, bots, and mastering the fundamentals of software development and problem-solving.",
+            position: "Automation Engineer",
+            company: "MO.S.A.I.C.",
+            period: "2020 - 2023",
+            location: "Italy / International Projects",
+            description: "Industrial automation engineer working on automotive, logistics and manufacturing projects for international customers.",
             responsibilities: [
-                "Learning Python programming and core concepts",
-                "Building automation scripts and Discord bots",
-                "Exploring data structures and algorithms",
-                "Participating in competitive programming"
+                "Developing PLC software",
+                "Configuring industrial networks",
+                "Troubleshooting automated systems",
+                "Implementing SCADA and HMI solutions"
             ],
-            technologies: ["Python", "Automation", "Scripting", "Discord.py", "Problem Solving"]
-        },
-        {
-            position: "Graphic Designer",
-            company: "Freelance",
-            period: "2022",
-            location: "Bangladesh",
-            description: "Started my creative journey as a graphic designer, creating logos, banners, and visual content. This sparked my passion for technology and digital creation.",
-            responsibilities: [
-                "Designing logos and brand identity materials",
-                "Creating social media graphics and banners",
-                "Working with clients on creative projects",
-                "Learning design principles and visual aesthetics"
-            ],
-            technologies: ["Photoshop", "Illustrator", "Canva", "Figma", "Visual Design"]
-        },
-        {
-            position: "Microsoft Office",
-            company: "Begin Learning",
-            period: "2021",
-            location: "Bangladesh",
-            description: "Started my journey into the digital world by learning Microsoft Office tools. This foundational step introduced me to computers and sparked my curiosity for technology.",
-            responsibilities: [
-                "Learning Microsoft Word, Excel, and PowerPoint",
-                "Creating documents and presentations",
-                "Understanding basic computer operations",
-                "Building foundational digital skills"
-            ],
-            technologies: ["MS Word", "MS Excel", "MS PowerPoint", "Computer Basics"]
+            technologies: [
+                "Siemens",
+                "Rockwell",
+                "PLC",
+                "SCADA",
+                "HMI",
+                "Profinet",
+                "Ethernet/IP",
+                "Profibus",
+                "EtherCAT"
+            ]
         }
     ],
     projects: [
@@ -107,7 +117,7 @@ export const config = {
             category: "AI / LLM",
             technologies: "Python, PyTorch, Transformers, FastAPI, React, MongoDB",
             image: "/images/drishti.png",
-            description: "Bangladesh's first intelligent advanced AI chatbot powered by a custom Large Language Model. Features natural language understanding, contextual conversations, and multilingual support including Bengali."
+            description: "Italy's first intelligent advanced AI chatbot powered by a custom Large Language Model. Features natural language understanding, contextual conversations, and multilingual support including Bengali."
         },
         {
             id: 2,
@@ -147,7 +157,7 @@ export const config = {
             category: "AI / ML",
             technologies: "Python, TensorFlow, Pandas, React, FastAPI, GIS",
             image: "/images/floodhub.png",
-            description: "A flood prediction model specifically designed for Bangladesh's river systems. Analyzes weather patterns, water levels, and historical data to provide accurate flood forecasts and alerts."
+            description: "A flood prediction model specifically designed for Italy's river systems. Analyzes weather patterns, water levels, and historical data to provide accurate flood forecasts and alerts."
         },
         {
             id: 7,
@@ -167,27 +177,24 @@ export const config = {
         }
     ],
     contact: {
-        email: "redoyanul1234@gmail.com",
-        github: "https://github.com/red1-for-hek",
-        linkedin: "https://linkedin.com/in/red1-for-hek",
-        twitter: "https://x.com/red_1_ul",
-        facebook: "https://www.facebook.com/redoyanulhaque.hacker.official",
-        instagram: "https://www.instagram.com/red_1_ul"
+        email: "aminelkassimi01@gmail.com",
+        github: "https://github.com/Amin23ElKassimi/",
+        linkedin: "https://www.linkedin.com/in/amin-el-kassimi/",
+        instagram: "https://www.instagram.com/"
     },
     skills: {
         develop: {
-            title: "AI DEVELOPER",
-            description: "Building intelligent systems & AI solutions",
-            details: "Developing AI agents, chatbots, and machine learning models using Python, TensorFlow, and PyTorch. Specializing in LLMs, NLP, deep learning, and autonomous systems.",
-            tools: ["Python", "TensorFlow", "PyTorch", "OpenCV", "Scikit-learn", "LLMs", "NLP", "Deep Learning", "Chatbots", "AI Agents"]
+            title: "IT/OT Engineer",
+            description: "Industrial automation, AGV commissioning and OT systems integration",
+            details: "Experience in AGV navigation systems and commissioning and troubleshooting for automotive environments.",
+            tools: ["Siemens SIMOVE", "PLC", "SCADA", "HMI", "Profinet", "MQTT", "industrial networking"]
         },
+
         design: {
-            title: "FULL-STACK",
-            description: "Modern web development & scalable applications",
-            details: "Building responsive and performant web applications using React, Next.js, Node.js, and databases. Creating seamless user experiences with modern UI/UX principles.",
-            tools: ["React", "Next.js", "Node.js", "TypeScript", "MongoDB", "PostgreSQL", "TailwindCSS", "REST APIs", "Docker", "Git"]
-        }
+            title: "Developer",
+            description: "Modern web development & AI-driven business applicationst",
+            details: "Development and maintenance of pharmaceutical AI platforms,  Front end and backend development, API design, and database management.",
+            tools: ["Angular.js", "Vue.js", "Laravel", "PHP", "MySQL", "REST APIs", "Git", "Docker",]
+        },
     }
 };
-
-
