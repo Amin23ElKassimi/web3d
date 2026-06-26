@@ -14,60 +14,64 @@ const techStack: TechItem[][] = [
     { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", url: "https://python.org" },
     { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
     { name: "TypeScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg", url: "https://typescriptlang.org" },
-    { name: "C", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg", url: "https://en.cppreference.com/w/c" },
-    { name: "C++", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg", url: "https://isocpp.org" },
-    { name: "Kotlin", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg", url: "https://kotlinlang.org" },
+    { name: "PHP", icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj7kqqlm6pcJvhJbT7PeS-SRgyQmsRkxTFgQ&s", url: "https://en.cppreference.com/w/c" },
+    { name: "Laravel", icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqaUOwjqd0rSCP3tsWs5cTs1SHbY8Sfb-Lhg&s", url: "https://isocpp.org" },
+    { name: "Bootstrap", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg", url: "https://getbootstrap.com" },
     { name: "HTML", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", url: "https://developer.mozilla.org/en-US/docs/Web/HTML" },
     { name: "CSS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg", url: "https://developer.mozilla.org/en-US/docs/Web/CSS" },
-    { name: "Bash", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg", url: "https://www.gnu.org/software/bash/" },
-    { name: "React", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", url: "https://react.dev" },
-    { name: "Next.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg", url: "https://nextjs.org" },
-    { name: "Bootstrap", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg", url: "https://getbootstrap.com" },
+    { name: "MySQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg", url: "https://mysql.com" },
+    { name: "MariaDB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mariadb/mariadb-original.svg", url: "https://mariadb.org" },
+    { name: "Postman", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg", url: "https://postman.com" },
+    { name: "Vite", icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTciGb_dOj4yuv7rf6_2qRyPbisaFmf_G6EvLIUyzKtaA&s=10", url: "https://vite.dev" },
+
   ],
   // Row 2 - 10 items
   [
-    { name: "Node.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg", url: "https://nodejs.org" },
-    { name: "Django", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg", url: "https://djangoproject.com" },
-    { name: "Flask", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg", url: "https://flask.palletsprojects.com" },
-    { name: "FastAPI", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg", url: "https://fastapi.tiangolo.com" },
-    { name: "TensorFlow", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg", url: "https://tensorflow.org" },
-    { name: "PyTorch", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg", url: "https://pytorch.org" },
-    { name: "Scikit-learn", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg", url: "https://scikit-learn.org" },
-    { name: "OpenCV", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg", url: "https://opencv.org" },
-    { name: "NumPy", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg", url: "https://numpy.org" },
-    { name: "Tailwind", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg", url: "https://tailwindcss.com" },
+    { name: "Kali Linux", icon: "https://img.icons8.com/color/48/kali-linux.png", url: "https://www.kali.org" },
+    { name: "Metasploit", icon: "https://img.icons8.com/color/48/metasploit.png", url: "https://www.metasploit.com" },
+    { name: "Splunk", icon: "https://img.icons8.com/color/48/splunk.png", url: "https://www.splunk.com" },
+    { name: "Maltego", icon: "https://livengel.de/wp-content/uploads/2022/03/Maltego-Logo-Icon-Yellow-1.png", url: "https://www.maltego.com" },
+    { name: "SHODAN", icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQpZX3-9EeWY6KzLhyN5mi_sjVh_mYyF4nAGbs0wvB8g&s=10", url: "https://www.shodan.io/" },
+    { name: "Wireshark", icon: "https://upload.wikimedia.org/wikipedia/commons/c/c6/Wireshark_icon_new.png", url: "https://www.wireshark.org" },
+    { name: "Nmap", icon: "https://img.icons8.com/color/48/nmap.png", url: "https://nmap.org" },
+    { name: "Burp Suite", icon: "https://upload.wikimedia.org/wikipedia/commons/e/e6/Logo_burpsuite.jpg", url: "https://portswigger.net/burp" },
+    { name: "SIEM", icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTciuSA0aQuk9huAid26Yta0un9ThNh9Lyn3A&s", url: "https://it.wikipedia.org/wiki/Security_Information_and_Event_Management" },
+    { name: "Nessus", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg", url: "https://it.tenable.com/products/nessus" },
   ],
   // Row 3 - 8 items
   [
-    { name: "Pandas", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg", url: "https://pandas.pydata.org" },
-    { name: "MySQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg", url: "https://mysql.com" },
-    { name: "PostgreSQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg", url: "https://postgresql.org" },
-    { name: "MongoDB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg", url: "https://mongodb.com" },
-    { name: "Firebase", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg", url: "https://firebase.google.com" },
-    { name: "Redis", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg", url: "https://redis.io" },
+
+    { name: "Bash", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg", url: "https://www.gnu.org/software/bash/" },
+    { name: "Cisco PT", icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl_QfTLuwg7zvvOtZ7Vv_1TS7EwjShAJLYug&s", url: "https://www.netacad.com/cisco-packet-tracer" },
     { name: "Docker", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg", url: "https://docker.com" },
-    { name: "Azure", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg", url: "https://azure.microsoft.com" },
-  ],
-  // Row 4 - 6 items
-  [
     { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg", url: "https://git-scm.com" },
     { name: "GitHub", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg", url: "https://github.com" },
     { name: "Linux", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg", url: "https://linux.org" },
-    { name: "AWS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg", url: "https://aws.amazon.com" },
     { name: "VS Code", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg", url: "https://code.visualstudio.com" },
-    { name: "Vercel", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg", url: "https://vercel.com" },
+    { name: "Oracle VM", icon: "https://img.icons8.com/color/600/virtualbox.png", url: "https://www.virtualbox.org/" },
+  ],
+  // Row 4 - 6 items
+  [
+    { name: "TIA Portal", icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_PWE7xxdGQMg4Hpt_ztTq2VH9u_uFbWRBNQ&s", url: "https://www.siemens.com/tia-portal" },
+    { name: "Rockwell", icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYYJe7pDu5ZfTQBByXRZ6NMQSRmJ1cTfAjhw&s", url: "https://inductiveautomation.com" },
+    { name: "Wincc", icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9UBJUFvC5xbwOqoQilO23kr6dJEWO6mYDeA&s", url: "https://inductiveautomation.com" },
+    { name: "Ignition", icon: "https://avatars.githubusercontent.com/u/26392698?s=280&v=4", url: "https://inductiveautomation.com" },
+    { name: "Windows", icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAPFBMVEXyUCJ/ugAApO//uQD////yTh7zWzSGvSHzVy2EvRYWp/D/uxYhqfD/vSHyTBvyVirzYj6LwCwsrPD/vyx7SrsvAAABD0lEQVR4nO3PyRHCQBAEwRFI3Df++8qTtaAVA1kOVGRVqmU3f9tPsWJAQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkLCjsIl1W0t4SHV/TEIn8dYNf96hP0j7B9h/wj7R9i/OsV6Ddv3OVZtYl0G4XUbi5CQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkPCfhR9HdHbJ00jfKAAAAABJRU5ErkJggg==", url: "https://inductiveautomation.com" },
+    { name: "MS Office", icon: "https://img.icons8.com/color/48/microsoft-office-2019.png", url: "https://www.microsoft.com/microsoft-365" },
   ],
   // Row 5 - 4 items
   [
-    { name: "Jupyter", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg", url: "https://jupyter.org" },
-    { name: "Figma", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg", url: "https://figma.com" },
-    { name: "Postman", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg", url: "https://postman.com" },
-    { name: "Photoshop", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-original.svg", url: "https://adobe.com/products/photoshop" },
+    { name: "ChatGPT", icon: "https://imgs.search.brave.com/a162Y0hLEPHL4G7WHg0Nw0DxUOn2TknT_UI4sVOwS_E/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNWE0ODk4ZGY3/Mzk1Y2EwMjAxZjJk/YmEzZWM1MzcyNTZm/MTI0YWEyOWQ3NjVk/MDgxNTMwMGQxNWMx/ZWVmZWMzZC9vcGVu/YWkuY29tLw", url: "https://chatgpt.com/" },
+    { name: "Claude", icon: "https://imgs.search.brave.com/GWjaTV9oDpq1Je9ium8eyNBhR4UvPfZUchUjSllz4rI/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTczMzdhMjk1/MjZkMGQ0YWFmNzE1/NjZhM2U4MDQzMjc5/OThlZDkyNTlhOGVh/Zjg4Mzk2MTIxOGFh/ZjkxYjdmYy9jbGF1/ZGUuYWkv", url: "https://claude.com" },
+    { name: "DeepSeek", icon: "https://imgs.search.brave.com/Hc1wbSijLvChcFdACJzahFCS1pTZqJq3NYqGvh5x4-Y/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMDcyMzc5Y2Fh/Nzc0YWE5MDhlOGYz/YTIyOGJlOTRlZmJi/ZGNkYWIzMGE0NjVl/ZDUxMDBjODMzZDc0/M2I0NTNiOC9kZWVw/c2Vlay5jb20v", url: "https://deepseek.com/" },
+    { name: "Gemini", icon: "https://imgs.search.brave.com/cj7jNYO4VXm428dGXzh--H0SIF6LQkp9yo24-yPzMI8/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZmEwZTNmYWNm/MTk2Yjg1YzVlNmU5/OWZkMDNkM2Y2NjVm/YzJlNDBlYjMwODMw/YWNmMmUxNDBlMjdh/NzdjMmVkZi9nZW1p/bmkuZ29vZ2xlLmNv/bS8", url: "https://gemini.google.com/" },
+
   ],
   // Row 6 - 2 items (tip of pyramid)
   [
-    { name: "Hugging Face", icon: "https://huggingface.co/front/assets/huggingface_logo-noborder.svg", url: "https://huggingface.co" },
-    { name: "MS Office", icon: "https://img.icons8.com/color/48/microsoft-office-2019.png", url: "https://www.microsoft.com/microsoft-365" },
+    { name: "NanoCLaw", icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAq1BMVEVHcEwvIFs+MmWkmbN1cI9GN2n39/s9NWZdUnvQydlIPmtqX4JgVXs9OGoxkJxZSHM6KGBlYoVKSXMzDlSCc5RHQGtzc5FlW3+ZlqsxY4ErwsArxsIsysUcOGYYRGwNAEkRkpgmmqMpurkYfIwgiZcdUHIVKl4hpKgXZ38YXXsovrxw1NAnrK87eY45z8gcEVYitbRkq7M0L2Q6P2wTb4E6W3s5h5dP39WA4d1Op4MuAAAAGnRSTlMA78EpRIgH02gTqluW6P164Xz46jS6jb5W7DVxRWIAAAFkSURBVCiRjZLpbsIwEIRNIE0IR6AUaL2+j9wXd9//yRqqCkgEUkf+YfnTjGZXRujfGi/90WvqfHqv4cR9fw1HwVM4dr2F4y+ns/b+9tZl/n6X57uSbwOEPvbr0eyRnXLA3xUrowlCh9Nwaif3zH2OMc5wDGqAJme9TWV4n2AHCv9q/uWHKa2VuTnHh0quNhlgoleOF5YVIezWyT0Tw3lmlZY8oqEEoqe31IHCYCQxtAAF7N3KNLjXiQBjgOvBoCKpVh8Pa2F/ba5MRIIOH4YcUtE+/8JYCE4ffK2Ta1HIWBUtElGAOnLnNBGUCpHWB77o7dU1VVmzubVlfsl3+2EH+skFCGXlwSbHDIpF1zpIZMNiQuDMNJBo3IFBcrL22EBhmAGg3dwRq4jkukltEpMm6saiNaWsYEzXEseaO73CU9bgVM/bPjHPZP8HbmrOjTmmlCdJ2oNLx/Nmg1Yzb+36vdjn+gFYaym0HJ45qwAAAABJRU5ErkJggg==", url: "https://nanoclaw.dev" },
+    { name: "Hermes", icon: "https://storage.yandexcloud.net/products/f2e87lnb7nbf1187ojhj.svg", url: "https://hermes-agent.nousresearch.com/" },
+
   ],
 ];
 
@@ -92,7 +96,7 @@ const TechStackNew = () => {
       {/* Content */}
       <div className="techstack-content">
         <h2>Tech Stack</h2>
-        
+
         <div className="techstack-pyramid">
           {techStack.map((row, rowIndex) => (
             <div key={rowIndex} className="techstack-row">

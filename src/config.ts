@@ -12,12 +12,12 @@ export const config = {
     },
     about: {
         title: "About Me",
-        description: "I'm a Software Engineer with expertise in Full-Stack Development, Cybersecurity, Industrial Automation, and Intelligent Systems. Experienced in designing secure applications, integrating complex software architectures, and delivering automation solutions across both IT and operational technology environments. My work combines software engineering, security research, DevOps practices. I am particularly interested in cybersecurity, threat intelligence, OSINT, automation and secure software development."
+        description: "NIS2 is no longer a future requirement. It's already here. The challenge is not only technology—it's understanding how business processes, cloud services, networks and operational systems connect together. I'm Amin El Kassimi, a Cybersecurity Consultant with a background that spans industrial automation, software development and security assessment. Unlike consultants who only see the IT side, I've worked directly with production environments, industrial control systems, web applications and enterprise infrastructures. Today I help organizations identify security gaps before they become audit findings, operational disruptions or security incidents."
     },
     experiences: [
         {
             position: "Cybersecurity Analyst & Security Researcher",
-            company: "Labs, Research & Personal Projects",
+            company: "EPICODE Institute of Technology",
             period: "2025 - Present",
             location: "Italy",
             description: "Focused on offensive and defensive security practices through hands-on laboratories, vulnerability assessment, penetration testing, threat intelligence and secure software development.",
@@ -75,11 +75,34 @@ export const config = {
                 "Supporting AI-generated data workflows"
             ],
             technologies: [
-                "Laravel",
+                "Java",
                 "PHP",
-                "Vue.js",
-                "TypeScript",
-                "MySQL",
+                "Angular.js",
+                "Linux",
+                "MariaDB",
+                "REST API",
+                "Git"
+            ]
+        },
+
+        {
+            position: "Trainee Full-Stack Development",
+            company: "Boolean Academy",
+            period: "2023 - 2024",
+            location: "Rome, Italy",
+            description: "Over 700 hours Full-time of intensive training, I gained hands-on experience by replicating leading platforms (Zalando, Spotify, WhatsApp Web) and developing complex team-based applications, including clones of Deliveroo and Airbnb.",
+            responsibilities: [
+                "Developing backend APIs and business logic",
+                "Managing database integrations and data processing",
+                "Improving frontend usability and performance",
+                "Supporting AI-generated data workflows"
+            ],
+            technologies: [
+                "Java",
+                "PHP",
+                "Angular.js",
+                "Linux",
+                "MariaDB",
                 "REST API",
                 "Git"
             ]
@@ -113,67 +136,60 @@ export const config = {
     projects: [
         {
             id: 1,
-            title: "Drishti",
-            category: "AI / LLM",
-            technologies: "Python, PyTorch, Transformers, FastAPI, React, MongoDB",
-            image: "/images/drishti.png",
-            description: "Italy's first intelligent advanced AI chatbot powered by a custom Large Language Model. Features natural language understanding, contextual conversations, and multilingual support including Bengali."
+            title: "Deliveboo",
+            category: "Food Delivery Platform",
+            technologies: "PHP, Laravel, MySQL, Vue.js, Vite, Bootstrap, REST APIs, Git",
+            image: "/images/Logo_Deliveboo.jpg",
+            description: "Full-stack web application that replicates the core experience of a food delivery platform. The project covers the complete development cycle — from database design to REST API, through to a reactive SPA frontend — and demonstrates my ability to architect and build real-world, multi-role systems from scratch."
         },
         {
             id: 2,
             title: "VoteChain",
-            category: "Blockchain",
-            technologies: "Solidity, Web3.js, React, Ethereum, IPFS, MetaMask, Node.js",
+            category: "Network Security / Enterprise",
+            technologies: "Cisco Packet Tracer, Network Security, IDS/IPS, DMZ, NAS, Python, Firewall Configuration",
             image: "/images/votechain.png",
-            description: "A decentralized election system built on blockchain technology ensuring transparent, tamper-proof, and verifiable voting. Features smart contracts for vote integrity and real-time result tracking."
+            description: "As the Team Leader for Epicode Accademy, I led a technical team students in designing, budgeting, and certifying a highly secure and segmented network infrastructure for Theta Company’s 6-story office building. The project required creating a network layout to support 120 client endpoints (20 computers per floor), a centralized network-attached storage (NAS) system, an internal monitoring system using multiple IDS/IPS sensors, and a secure Demilitarized Zone (DMZ) to host a public-facing web server."
         },
         {
             id: 3,
-            title: "EIE - Earthquake Impact Estimator",
-            category: "IoT / Hardware",
-            technologies: "Arduino, C++, IoT Sensors, Python, ML, React",
-            image: "/images/eie.png",
-            description: "A practical circuit-based IoT system utilizing Arduino to predict earthquakes before they strike. Integrates hardware sensors for real-time seismic detection and impact estimation."
+            title: "Penetration Testing Lab",
+            category: "Pentesting / Security Research",
+            technologies: "Nmap , Nessus , Burp Suite, Metasploit Framework , John the Ripper , WPScan, Wfuzz, Gobuster, CyberChef, LinPEAS, GCC / Python / Bash ",
+            image: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/437d92f4-98f8-4174-b968-5f4c2563b19c/db2suii-b5876ac1-8d8e-4c49-9cc9-f51034781e11.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi80MzdkOTJmNC05OGY4LTQxNzQtYjk2OC01ZjRjMjU2M2IxOWMvZGIyc3VpaS1iNTg3NmFjMS04ZDhlLTRjNDktOWNjOS1mNTEwMzQ3ODFlMTEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.hqABOgcvFjPbgajphhRV8F6mPU0wp80UsOl_mlRjJ1A",
+            description: "Successfully compromised six vulnerable target machines through a wide range of attack vectors: SQL Injection and Stored XSS on DVWA (credential extraction, cookie theft). Command Injection on Jangow01 (reverse shell, kernel exploit to root). Anonymous FTP + WordPress brute-force on BSides Vancouver 2018 (reverse shell, cron job misconfiguration to root). Directory fuzzing + SSH key cracking on Empire Lupin One (DirtyPipe kernel exploit to root). Samba exploit on Metasploitable 2 (direct root shell via Metasploit). Tomcat default credentials on Windows 10 (Meterpreter session, webcam hijacking)"
         },
+
         {
             id: 4,
-            title: "GameKroy",
-            category: "Full Stack",
-            technologies: "React, Node.js, MongoDB, Express, Stripe, TailwindCSS",
-            image: "/images/gamekroy.png",
-            description: "A full-featured e-commerce platform for gaming products. Includes user authentication, product catalog, shopping cart, secure payments, order tracking, and admin dashboard."
-        },
-        {
-            id: 5,
-            title: "RedxChess",
-            category: "AI / Game Engine",
-            technologies: "Python, C++, Neural Networks, Bitboards, UCI Protocol",
+            title: "Malware Analysis",
+            category: "Static / Dynamic Analysis",
+            technologies: "VirusTotal, AnyRun, dnSpy, Fakenet, MITRE ATT&CK Framework, Suricata, Yara ",
             image: "/images/redxchess.png",
-            description: "A high-performance chess engine rated 3640 ELO. Features advanced search algorithms, neural network evaluation, and optimized bitboard representation for lightning-fast move generation."
+            description: "Conducted static and dynamic analysis of malicious samples—including the AdwereCleaner.exe scareware and Lumma/Vidar infostealers—within isolated sandbox environments. The project involved analyzing high-entropy NSIS-packed installers and detecting evasion techniques such as process injection into legitimate system processes. Through reverse engineering and .NET source code decompilation, the payload's internal logic was mapped, exposing registry modifications used to maintain persistence. Network traffic analysis revealed communications with Command and Control (C2) infrastructure disguised via Telegram and Steam profiles, enabling the extraction of accurate Indicators of Compromise (IoCs) for targeted remediation."
         },
         {
             id: 6,
-            title: "Floodhub",
-            category: "AI / ML",
-            technologies: "Python, TensorFlow, Pandas, React, FastAPI, GIS",
-            image: "/images/floodhub.png",
-            description: "A flood prediction model specifically designed for Italy's river systems. Analyzes weather patterns, water levels, and historical data to provide accurate flood forecasts and alerts."
+            title: "Traffic Analyis",
+            category: "Sniffing / Network Forensics",
+            technologies: "Wireshark, Follow TCP Stream, Base64 Decoding ",
+            image: "/images/wireshark.png",
+            description: "Performed deep packet inspection and network forensics focused on analyzing HTTP and HTTPS protocols using Wireshark. The project involved identifying sensitive credentials transmitted in plaintext, reconstructing network streams via Follow TCP Stream, and manually extracting binary artifacts from PCAP files. This analysis successfully unmasked a disguised malicious executable (W32.Nimda.Amm.exe), proving it to be a renamed Command Prompt (cmd.exe). Additionally, email tracking links were investigated by decoding Base64-obfuscated strings to isolate the actual destination URLs and document common phishing and social engineering tactics."
         },
         {
             id: 7,
-            title: "Phoenix",
-            category: "AI Assistant",
-            technologies: "Python, Speech Recognition, PyAutoGUI, OpenAI API, Tkinter",
-            image: "/images/phoenix.png",
-            description: "A JARVIS-inspired personal AI desktop assistant. Controls system functions, manages tasks, answers queries, automates workflows, and provides voice-activated computing experience."
+            title: " OSCP Buffer Overflow ",
+            category: "Security / Windows 10",
+            technologies: "Immunity Debugger, Mona.py, msfvenom, Python, Netcat",
+            image: "/images/hektools.png",
+            description: "Studied and practically exploited stack-based buffer overflow memory corruption vulnerabilities in compiled C/C++ binaries within a lab environment. The activity involved utilizing debuggers (such as GDB and x64dbg) to inspect CPU registers (EIP/ESP) and monitor stack architecture when handling malformed input strings. The project covered calculating the exact return address overwrite offset using cyclic patterns, isolating bad characters, and developing custom Python exploit scripts. The final exploits, leveraging NOP sleds, were engineered to inject custom shellcode to achieve remote access (Reverse/Bind Shells), while analyzing the efficacy and bypass methods of modern OS-level defenses like ASLR and DEP/NX."
         },
         {
             id: 8,
-            title: "HekTools",
-            category: "Security / Android",
-            technologies: "Kotlin, Android SDK, Firebase, Python, Encryption",
-            image: "/images/hektools.png",
-            description: "An advanced Android monitoring and security research tool. Features remote device management, activity logging, and encrypted data transmission for security testing purposes."
+            title: " In Progress...",
+            category: "Study / Security Research",
+            technologies: "Accademy courses, Udemy, Books, Training Websites, CTFs, Labs",
+            image: "/images/study.png",
+            description: "Software & Web Development: My main area of focus is software and web development. This includes studying specific development methodologies and technologies, as well as working on web development projects using languages and frameworks like PHP, Laravel, and MySQL. Cybersecurity & Ethical Hacking: I am actively training in the field of cybersecurity and ethical hacking. This involves practical learning through platforms designed to simulate real-world cyber attack and defense scenarios, and specific training for the Blue Team (defensive security). Advanced Programming & Computing Concepts: I am studying advanced concepts, such as Cloud Computing infrastructure, and advanced programming topics like building real-world projects and mastering Coding in Python. Core Skills & Specialized Knowledge: To complete my education, I am acquiring core skills like English grammar and speaking, and specialized knowledge, such as Arabic language lessons."
         }
     ],
     contact: {
@@ -188,14 +204,14 @@ export const config = {
         develop: {
             title: "IT/OT Engineer",
             description: "Industrial automation, AGV commissioning and OT systems integration",
-            details: "Experience in AGV navigation systems and commissioning and troubleshooting for automotive environments.",
-            tools: ["Siemens SIMOVE", "PLC", "SCADA", "HMI", "Profinet", "MQTT", "industrial networking"]
+            details: "Work in complex automation systems. Commissioning and troubleshooting for automotive environments.",
+            tools: ["Siemens SIMOVE", "PLC", "SCADA", "HMI", "Profinet", "industrial networking"]
         },
 
         design: {
             title: "Developer",
             description: "Modern web development & AI-driven business applicationst",
-            details: "Development and maintenance of pharmaceutical AI platforms,  Front end and backend development, API design, and database management.",
+            details: "Development and maintenance of pharmaceutical AI platforms, Front end and backend development, API design, and database management.",
             tools: ["Angular.js", "Vue.js", "Laravel", "PHP", "MySQL", "REST APIs", "Git", "Docker",]
         },
     }
