@@ -12,7 +12,7 @@ export const config = {
     },
     about: {
         title: "About Me",
-        description: "NIS2 is no longer a future requirement. It's already here. The challenge is not only technology—it's understanding how business processes, cloud services, networks and operational systems connect together. I'm Amin El Kassimi, a Cybersecurity Consultant with a background that spans industrial automation, software development and security assessment. Unlike consultants who only see the IT side, I've worked directly with production environments, industrial control systems, web applications and enterprise infrastructures. Today I help organizations identify security gaps before they become audit findings, operational disruptions or security incidents."
+        description: "NIS2 is no longer a future requirement. It's already here. The challenge is not only technology—it's understanding how cloud services, networks and operational systems connect together. I'm Amin El Kassimi, a Cybersecurity Consultant with a background that spans industrial automation, software development and security assessment. Unlike consultants who only see the IT side, I've worked directly with production environments, industrial control systems and web applications. Today I help organizations identify security gaps before they become audit findings, operational disruptions or security incidents."
     },
     experiences: [
         {
