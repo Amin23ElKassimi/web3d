@@ -19,7 +19,7 @@ export default async function handler(req, res) {
             },
             body: JSON.stringify({
                 messages,
-                model: 'llama-3.3-70b-versatile'
+                model: process.env.GROQ_MODEL || "openai/gpt-oss-120b"
             })
         });
 
