@@ -237,19 +237,16 @@ const Play = () => {
         { role: 'user', content: chatInput }
       ];
 
-      const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+      const response = await fetch('/api/chat', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${import.meta.env.VITE_GROQ_API_KEY}`
-        },
-        body: JSON.stringify({
-          messages: messages,
-          model: 'llama-3.3-70b-versatile'
-        }),
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ messages }),
       });
 
       const data = await response.json();
+      if (!response.ok) {
+        throw new Error(data.error || `HTTP ${response.status}`);
+      }
 
       if (data.choices && data.choices[0]?.message?.content) {
         const assistantMessage: ChatMessage = {
