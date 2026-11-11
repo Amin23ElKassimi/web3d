@@ -1,4 +1,6 @@
+import { useEffect } from "react";
 import "./styles/Career.css";
+import { setAllTimeline } from "./utils/GsapScroll";
 import { config } from "../config";
 
 const getDisplayYear = (period: string) => {
@@ -10,6 +12,16 @@ const getDisplayYear = (period: string) => {
 };
 
 const Career = () => {
+  // La timeline deve partire su tutti i dispositivi, non solo quando
+  // il personaggio 3D (montato solo su desktop) ha finito di caricare.
+  useEffect(() => {
+    const timeline = setAllTimeline();
+    return () => {
+      timeline.scrollTrigger?.kill();
+      timeline.kill();
+    };
+  }, []);
+
   return (
     <div className="career-section section-container">
       <div className="career-container">
