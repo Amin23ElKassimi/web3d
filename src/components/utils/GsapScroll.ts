@@ -63,6 +63,12 @@ export function setCharTimeline(
   let neckBone = character?.getObjectByName("spine005");
   if (window.innerWidth > 1024) {
     if (character) {
+      // Il CSS centra il modello con translateX(-50%). GSAP prova a dedurre quel -50%
+      // confrontando i pixel con offsetWidth/2, ma con larghezze frazionarie
+      // (es. 1254.67px quando compare la scrollbar) il confronto fallisce e il
+      // modello finisce spostato a destra. Fissiamo xPercent in modo esplicito.
+      gsap.set(".character-model", { xPercent: -50, x: 0 });
+
       tl1
         .fromTo(character.rotation, { y: 0 }, { y: 0.7, duration: 1 }, 0)
         .to(camera.position, { z: 22 }, 0)
