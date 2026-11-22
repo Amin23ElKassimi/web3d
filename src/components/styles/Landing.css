@@ -508,6 +508,18 @@ h2.landing-info-h2 {
     right: auto;
     left: 66%;
   }
+
+  /* Il blocco parte al 66% della larghezza: con font fissi (55px/45px)
+     "OT/IT DEVELOPER" usciva dallo schermo tra 1025px e 1600px.
+     Font fluidi in vw, con il massimo pari ai valori originali. */
+  .landing-info h2 {
+    font-size: clamp(24px, 2.7vw, 45px);
+    line-height: 1.1;
+  }
+
+  h2.landing-info-h2 {
+    font-size: clamp(28px, 3.3vw, 55px);
+  }
 }
 
 @media screen and (min-width: 1200px) {
